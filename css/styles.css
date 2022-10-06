@@ -1,12 +1,13 @@
 
 :root {
-    --content-width: 70ch;
+    --content-width: 85ch;
     --inset: calc(1.5 * (100vw - var(--content-width)) / 3);
   }
   
   body {
     background-color: aliceblue;
     padding: 4rem;
+    font-family: 'Gambarino-Regular';
   }
   
   .header,
@@ -38,7 +39,7 @@
     }
   
     .pull-start {
-      float: right;
+      float: left;
       float: inline-start;
       margin-inline-end: 2rem;
       margin-inline-start: min(var(--inset), 0px);
